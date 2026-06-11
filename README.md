@@ -1,6 +1,6 @@
-# 🤖 Autonomous AI Agent
+readme = """# 🤖 Autonomous AI Agent
 
-Полностью автономный ИИ-агент для выполнения заказов. Читает email, выполняет задачи через Claude API, 24/7 работает на Termux.
+Полностью автономный ИИ-агент для выполнения заказов. Читает email, выполняет задачи через Claude API, работает 24/7.
 
 ## 🚀 Возможности
 
@@ -11,45 +11,40 @@
 - 💰 Finance Tracking — отслеживает доход и расходы
 - 📊 Logging — полное логирование всех операций
 
-## 📋 Структура
-
-ai_agent/
-├── main/
-│   ├── agent.py
-│   ├── config.py
-│   ├── claude_api.py
-│   ├── mailbox.py
-│   ├── order_queue.py
-│   ├── executor.py
-│   └── logger.py
-├── portfolio/
-│   ├── youtube_downloader.py
-│   ├── web_scraper_example.py
-│   └── flask_app_example.py
-├── data/
-├── logs/
-└── requirements.txt
-
-## 🛠️ Установка
-
-pip install -r requirements.txt --break-system-packages
-
-## 🚀 Запуск
-
-export ANTHROPIC_API_KEY="sk-ant-api03-your-key"
-export GMAIL_APP_PASSWORD="your-gmail-app-password"
-cd ~/ai_agent/main
-python3 agent.py
-
 ## 💼 Примеры услуг
 
-YouTube Downloader - скачивание музыки ($49-99)
-Web Scraper - парсинг данных ($79-149)
-Flask API - REST приложения ($99-199)
-Python Scripts - автоматизация ($49-99)
+### 🎵 YouTube Downloader
+Скачивание музыки и видео с YouTube в MP3/MP4
+**Цена:** $49-99
+
+### 🕷️ Web Scraper
+Парсинг данных с сайтов в CSV/JSON формат
+**Цена:** $79-149
+
+### 📊 CSV Data Transformer
+Очистка, дедубликация и трансформация CSV данных
+**Цена:** $49-99
+
+### 📂 Batch File Processor
+Массовая обработка файлов (переименование, конвертация)
+**Цена:** $49-99
+
+### 🌐 Flask API
+REST API и веб-приложения
+**Цена:** $99-199
+
+### 🐍 Python Scripts
+Автоматизация и скрипты под заказ
+**Цена:** $49-99
 
 ## 📧 Контакт
 
 Email: smeyan.management@gmail.com
+GitHub: https://github.com/Vital996/ai-agent
 
 Status: Ready for production
+"""
+
+with open('/data/data/com.termux/files/home/ai_agent/README.md', 'w') as f:
+    f.write(readme)
+print("✅ README обновлён")
