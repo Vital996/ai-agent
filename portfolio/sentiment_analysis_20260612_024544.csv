@@ -1,0 +1,6 @@
+text,sentiment,score,analyzed_at
+This product is absolutely amazing! Love it!,positive,1,2026-06-12T02:45:44.519752
+"Terrible quality, waste of money",negative,1,2026-06-12T02:45:44.519839
+"It works fine, nothing special",neutral,0,2026-06-12T02:45:44.519857
+"Best purchase ever, highly recommend!",positive,1,2026-06-12T02:45:44.519866
+"Broke after one week, very disappointed",neutral,0,2026-06-12T02:45:44.519880
