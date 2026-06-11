@@ -1,17 +1,17 @@
 # 🤖 Autonomous AI Agent
 
-Полностью автономный ИИ-агент для выполнения заказов. Читает email, выполняет задачи через Claude API, работает 24/7.
+Fully autonomous AI agent for freelance project execution. Reads email, executes tasks through Claude API, works 24/7.
 
-## 🚀 Возможности
+## 🚀 Features
 
-- 📬 Email Monitoring — проверяет почту каждые 5 минут
-- 🔄 Parallel Processing — выполняет несколько заказов одновременно
-- 🤖 Claude Integration — использует Claude API для решения задач
-- 💾 Task Queue — управляет очередью заказов
-- 💰 Finance Tracking — отслеживает доход и расходы
-- 📊 Logging — полное логирование всех операций
+- 📬 Email Monitoring — checks mail every 5 minutes
+- 🔄 Parallel Processing — executes multiple orders simultaneously
+- 🤖 Claude Integration — uses Claude API for task solving
+- 💾 Task Queue — manages order queue
+- 💰 Finance Tracking — tracks revenue and API costs
+- 📊 Logging — complete operation logging
 
-## 💼 Примеры услуг
+## 💼 Services
 
 - 🎵 YouTube Downloader ($49-99)
 - 🕷️ Web Scraper ($79-149)
@@ -20,7 +20,7 @@
 - 🌐 Flask API ($99-199)
 - 🐍 Python Scripts ($49-99)
 
-## 📧 Контакт
+## 📧 Contact
 
 Email: smeyan.management@gmail.com
 GitHub: https://github.com/Vital996/ai-agent
