@@ -57,3 +57,11 @@
 - New aliases: agent (cd to project), ctx (print all sync files), save (git add+commit+push)
 - Lesson: avoid full file rewrites, use append. Avoid giant heredocs - they cause chat UI to split into multiple code blocks. Keep Claude responses short - long chats hit limits fast.
 - New chat handoff: run "ctx" in terminal, paste full output as first message to new Claude
+
+## 🎯 Текущий фокус (с 2026-06-13)
+Мета-задача: оптимизация workflow с Claude. CLAUDE_RULES.md → v2: уровни задач, экономия токенов, bootstrap, формат cat-команд для файлов. CLAUDE_RULES.md — единственный источник правил.
+
+### 2026-06-13
+- Переписан CLAUDE_RULES.md (v2)
+- Убрана дублирующая копия 7 правил отсюда
+- Следующий шаг: тест на практике (Web Scraper) или докрутка правил
